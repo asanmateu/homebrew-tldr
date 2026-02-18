@@ -1,26 +1,26 @@
 class TldrCli < Formula
   desc "CLI summarization tool optimised for neurodiversity"
   homepage "https://github.com/asanmateu/tldr"
-  version "1.2.0"
+  version "2.0.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/asanmateu/tldr/releases/download/v1.2.0/tldr-darwin-arm64.tar.gz"
-      sha256 "be21c8c6caa02afd5e0d796ddecf4d6f49cda0d27aa6616abf39dd7209534ad3"
+      url "https://github.com/asanmateu/tldr/releases/download/v2.0.0/tldr-darwin-arm64.tar.gz"
+      sha256 "b881ad83580ae224b1aeca2aeb380ba7f1f06632a6a7f8b3598c77612e13a3b1"
     else
-      url "https://github.com/asanmateu/tldr/releases/download/v1.2.0/tldr-darwin-x64.tar.gz"
-      sha256 "a4ccdb33b98809d1c40b23a8e995b33331d8c141f3ef9a2d483bae4109ae598a"
+      url "https://github.com/asanmateu/tldr/releases/download/v2.0.0/tldr-darwin-x64.tar.gz"
+      sha256 "96da2147f64e5c86e8b526d77233c7b9691a0ace7b233fb057ea4969f9789778"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/asanmateu/tldr/releases/download/v1.2.0/tldr-linux-arm64.tar.gz"
-      sha256 "22c9df628d56ef796f49c7234e4cebf1616c12c2ef8071dbf11ce181d5395453"
+      url "https://github.com/asanmateu/tldr/releases/download/v2.0.0/tldr-linux-arm64.tar.gz"
+      sha256 "568b140136e297df9a67f34b2dd66933cf1cb8e3215c4bda6ddbdd9cc8374a2c"
     else
-      url "https://github.com/asanmateu/tldr/releases/download/v1.2.0/tldr-linux-x64.tar.gz"
-      sha256 "b532428eb95b0ef4af89f23c353ae3ae57690bee7ec6bc5680fc353bf30b1382"
+      url "https://github.com/asanmateu/tldr/releases/download/v2.0.0/tldr-linux-x64.tar.gz"
+      sha256 "115f61ea3f1145407dcfdca3084e6108f76e2e4653e5b84d1f1c0b6d9e5c2d2a"
     end
   end
 
